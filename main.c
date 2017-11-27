@@ -2,7 +2,7 @@
 #include <string.h>
 int main(int argc, char **argv)
 {
-   printf("Enter your  name: ");
+   printf("Enter yours  names: ");
     fgets(name, 255, stdin);
     name[strlen(name)-1] = '\0'; /* remove the newline at the end */
 
